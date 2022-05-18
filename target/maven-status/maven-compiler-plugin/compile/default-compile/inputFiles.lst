@@ -1,0 +1,16 @@
+/Users/david/IdeaProjects/E_Commerce/src/main/java/com/shop/ecommerce/dao/ProductImgDao.java
+/Users/david/IdeaProjects/E_Commerce/src/main/java/com/shop/ecommerce/dao/ProductCategoryDao.java
+/Users/david/IdeaProjects/E_Commerce/src/main/java/com/shop/ecommerce/dao/ShopCategoryDao.java
+/Users/david/IdeaProjects/E_Commerce/src/main/java/com/shop/ecommerce/controller/AreaController.java
+/Users/david/IdeaProjects/E_Commerce/src/main/java/com/shop/ecommerce/dao/AreaDao.java
+/Users/david/IdeaProjects/E_Commerce/src/main/java/com/shop/ecommerce/entity/User.java
+/Users/david/IdeaProjects/E_Commerce/src/main/java/com/shop/ecommerce/dao/ProductDao.java
+/Users/david/IdeaProjects/E_Commerce/src/main/java/com/shop/ecommerce/service/AreaService.java
+/Users/david/IdeaProjects/E_Commerce/src/main/java/com/shop/ecommerce/entity/ProductImg.java
+/Users/david/IdeaProjects/E_Commerce/src/main/java/com/shop/ecommerce/entity/Product.java
+/Users/david/IdeaProjects/E_Commerce/src/main/java/com/shop/ecommerce/entity/Area.java
+/Users/david/IdeaProjects/E_Commerce/src/main/java/com/shop/ecommerce/service/impl/AreaServiceImpl.java
+/Users/david/IdeaProjects/E_Commerce/src/main/java/com/shop/ecommerce/entity/Shop.java
+/Users/david/IdeaProjects/E_Commerce/src/main/java/com/shop/ecommerce/entity/ProductCategory.java
+/Users/david/IdeaProjects/E_Commerce/src/main/java/com/shop/ecommerce/entity/ShopCategory.java
+/Users/david/IdeaProjects/E_Commerce/src/main/java/com/shop/ecommerce/dao/ShopDao.java

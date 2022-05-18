@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: com.shop.ecommerce.dao.AreaDaoTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.871 s <<< FAILURE! - in com.shop.ecommerce.dao.AreaDaoTest
+testQueryArea(com.shop.ecommerce.dao.AreaDaoTest)  Time elapsed: 2.965 s  <<< ERROR!
+org.mybatis.spring.MyBatisSystemException: 
+nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+### The error may exist in file [/Users/david/IdeaProjects/E_Commerce/target/classes/mapper/AreaDao.xml]
+### The error may involve com.shop.ecommerce.dao.AreaDao.queryArea
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at com.shop.ecommerce.dao.AreaDaoTest.testQueryArea(AreaDaoTest.java:23)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+### The error may exist in file [/Users/david/IdeaProjects/E_Commerce/target/classes/mapper/AreaDao.xml]
+### The error may involve com.shop.ecommerce.dao.AreaDao.queryArea
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at com.shop.ecommerce.dao.AreaDaoTest.testQueryArea(AreaDaoTest.java:23)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at com.shop.ecommerce.dao.AreaDaoTest.testQueryArea(AreaDaoTest.java:23)
+Caused by: java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at com.shop.ecommerce.dao.AreaDaoTest.testQueryArea(AreaDaoTest.java:23)
+Caused by: com.mchange.v2.resourcepool.CannotAcquireResourceException: A ResourcePool could not acquire a resource from its primary factory or source.
+	at com.shop.ecommerce.dao.AreaDaoTest.testQueryArea(AreaDaoTest.java:23)
+Caused by: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+
