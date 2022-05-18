@@ -34,5 +34,6 @@
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
         <property name="basePackage" value="com.shop.ecommerce.dao" />
+        <!--service里要自动生成用到的dao-->
     </bean>
 </beans>

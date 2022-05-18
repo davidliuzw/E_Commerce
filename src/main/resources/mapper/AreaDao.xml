@@ -9,4 +9,11 @@
  		FROM tb_area
  		ORDER BY priority
  	</select>
+
+	<insert id = "insertArea" useGeneratedKeys="true" keyProperty="areaId" keyColumn="area_id">
+			INSERT INTO tb_area (area_name, priority, time_created, time_updated)
+			VALUES (#{areaName},#{priority},#{timeCreated},#{timeUpdated});
+			<!-- # -> map -->
+	</insert>
+
  </mapper>

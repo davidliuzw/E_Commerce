@@ -2,6 +2,8 @@ package com.shop.ecommerce.dao;
 
 import com.shop.ecommerce.entity.Product;
 import org.apache.ibatis.annotations.Param;
+// ibatis是干什么的
+// para是干什么的
 
 import java.util.List;
 

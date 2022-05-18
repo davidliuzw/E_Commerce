@@ -3,6 +3,7 @@
     PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.shop.ecommerce.dao.ProductDao">
+	<!--resultMap相当于让sql返回的数据映射到entity里？和mybatis config的区别？可以删掉-->
 	<resultMap id="productMap" type="com.shop.ecommerce.entity.Product">
 		<id column="product_id" property="productId" />
 		<result column="product_name" property="productName" />
@@ -73,8 +74,11 @@
 		ORDER BY
 		priority DESC
 		LIMIT #{rowIndex},#{pageSize};
+		<!--对应controller里的@para的后两个参数-->
+		<!--row index and pagesize?-->
 	</select>
 
+	<!--count(1)和tb_product是什么？-->
 	<select id="queryProductCount" resultType="int">
 		SELECT count(1) FROM tb_product
 		<where>
@@ -97,6 +101,7 @@
 			</if>
 		</where>
 	</select>
+
 	<select id="queryProductById" resultMap="productMap"
 		parameterType="Long">
 		SELECT
